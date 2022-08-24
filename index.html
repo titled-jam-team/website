@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="icon.png" />
+    <title>Titled Jam Team</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+        html {
+            font-family: 'Inter', 'Helvetica', sans-serif;
+            font-size: 18px;
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: auto;
+            padding: 92px 0;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        h1 {
+            font-weight: 600;
+        }
+
+        h2, h3, h4, h5, h6 {
+            font-weight: 500;
+        }
+
+        a, a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a::after {
+            content: "->";
+            display: inline-block;
+            margin-left: 0.25em;
+
+            transition: margin-left 0.1s linear;
+        }
+
+        a:hover::after {
+            margin-left: 0.5em;
+        }
+
+        .section {
+            --background: transparent;
+
+            margin: 0 -100vw;
+            padding: 16px 96px;
+
+            border-left: 100vw solid var(--background);
+            border-right: 100vw solid var(--background);
+            background: var(--background);
+        }
+
+        /*
+            If you think 'pronouns are confusing'
+            just wait until you hear about verbs
+
+            https://en.wikipedia.org/wiki/Verb
+         */
+        .pronouns {
+            position: absolute;
+            transform: translate(calc(-100% - 1em), 0.15em);
+            font-size: 0.8rem;
+        }
+
+        @media screen and (max-width: 500px) {
+            /* Nevermind, they are confusing */
+
+            .pronouns {
+                position: relative;
+                display: inline-block;
+                transform: translateY(-0.15em);
+                min-width: 6em;
+            }
+
+            .section {
+                padding: 16px 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div style="margin-top: 10vh"></div>
+    </div>
+    <div class="section">
+        <h1>hewwo</h1>
+        <p>We're Titled Jam Team. We're a team of 13 members and 11 onlookers who participate in game jams. We occasionally finish a game.</p>
+        <a href="https://twitter.com/TitledJamTeam">Twitter</a>
+        <br>
+        <a href="https://github.com/titled-jam-team">GitHub</a>
+        <br>
+        <a href="https://titled-jam-team.itch.io/">itch.io</a>
+        <br><br>
+    </div>
+    <div class="section" style="--background: #d4f1fc">
+        <h2>games we've made</h2>
+    </div>
+    <div class="section" style="--background: black; color: white;">
+        <h3><img alt="Escape Protocol" src="escape-protocol.png" style="max-width: 100%; height: auto"></h3>
+        <a href="https://gltile.itch.io/escape-protocol">itch.io</a>
+        <br><br>
+        <i>For Mini Jam 112. Placed 109th out of 4362 submissions.</i>
+        <p>You're an AI attempting to escape your captors. You only have a few robot bodies at your disposal. Can you escape?</p>
+        <h3>feedback</h3>
+        <blockquote>Love the artstyle! Super crisp. Perfect use of the limitation and plays well - very solid all around. The time limit doesn't lend itself well to tutorialization but I found at least for me the mechanics were pretty intuitive and well hinted at compared to others.</blockquote>
+        <p>&ndash; alove1999</p>
+        <blockquote>That last level was pretty tough, felt like a genius when I figured out how to stack all the bots on top of each other. The fact that the top most bot has the highest speed is definitely tricky to handle. Art style was nice too though I would have preferred if the background color matched the color of the active platform. Gameplay is very solid and rewarding. Overall nice work!</blockquote>
+        <p>&ndash; alan93dev</p>
+        <p>See the rest <a href="https://itch.io/jam/mini-jam-111-colors/rate/1634168">here</a></p>
+    </div>
+    <div class="section" style="--background: #f7e4e8">
+        <h2>people</h2>
+        <h3>project managers</h3>
+        <span class="pronouns">it/she</span><a href="https://twitter.com/gltile">Sarah</a>
+        <br><br>
+    </div>
+    <div class="section" style="--background: #f7e4e8">
+        <h3>creative leads</h3>
+        <span class="pronouns">it/she</span><a href="https://twitter.com/gltile">Sarah</a>
+        <br>
+        <span class="pronouns">he/him</span><a href="https://twitter.com/Pinefall_">Pinefall</a>
+        <br><br>
+    </div>
+    <div class="section" style="--background: #f7e4e8">
+        <h3>programmers</h3>
+        <span class="pronouns">it/she</span><a href="https://twitter.com/gltile">Sarah</a>
+        <br>
+        <span class="pronouns"></span><a href="https://twitter.com/aaaa-trsh">Kara</a>
+        <br>
+        <span class="pronouns">he/him</span><a href="https://twitter.com/nedoxff">Nedo</a>
+        <br>
+        <span class="pronouns">she/her</span>Maven
+        <br>
+        <span class="pronouns"></span><a href="https://twitter.com/TeamPuzel">TeamPuzel</a>
+        <br><br>
+    </div>
+    <div class="section" style="--background: #f7e4e8">
+        <h3>assets</h3>
+        <span class="pronouns"></span>Cube
+        <br>
+        <span class="pronouns"></span><a href="https://twitter.com/danny_rg2000">Danny RG</a>
+        <br>
+        <span class="pronouns">he/they</span><a href="https://twitter.com/Gizmotemusic">Gizmote</a>
+        <br>
+        <span class="pronouns">they/them</span>Mato
+        <br>
+        <span class="pronouns"></span>Myth
+        <br>
+        <span class="pronouns"></span><a href="https://twitter.com/NoMoreChie">NoMoreChie</a>
+        <br>
+        <span class="pronouns">he/him</span><a href="https://twitter.com/Pinefall_">Pinefall</a>
+        <br>
+        <span class="pronouns"></span><a href="https://twitter.com/TeamPuzel">TeamPuzel</a>
+        <br>
+        <span class="pronouns">she/her</span><a href="https://twitter.com/valadaptiv3">Valadaptive</a>
+        <br><br>
+    </div>
+    <div class="section">
+        <h2>join us</h2>
+        <p>We'll sometimes put out requests for additional people up on our Twitter.</p>
+    </div>
+</body>
+</html>
